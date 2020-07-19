@@ -8,71 +8,75 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
-                <img id="logo" src="https://tentulogo.com/wp-content/uploads/SpaceX-CABECERA-POST-BLOG.jpg" alt="Logo of SpaceX" width="100%">
+            <figure class="logoWrapper">
+                <img class="logo" src="https://tentulogo.com/wp-content/uploads/SpaceX-CABECERA-POST-BLOG.jpg" alt="Logo of SpaceX" width="100%">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a class="link" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#events">Experience</a>
+                        <a class="link" href="#events">Experience</a>
                     </li>
                     <li>
-                        <a href="#contact">Let's work together!</a>
+                        <a class="link" href="#contact">Let's work together!</a>
                     </li>
                 </ol>
             </nav>
         </div>
     </header>
 
-    <section id="main">
-        <h1>
+    <section class="hero">
+        <h1 class="hero-title">
             Hi! I'm <strong>Tomás López</strong> <br /> I'm a <strong>Web Developer</strong> with passion for <strong>long-life learning</strong>
         </h1>
-        <img id="hero" src="https://tesla-4u.com/wp-content/uploads/2018/12/Elon-Musk-Iron-Man.png" alt="Hero: Elon Musk">
+        <figure class="hero-imageWrapper">
+            <img class="hero-image" src="https://tesla-4u.com/wp-content/uploads/2018/12/Elon-Musk-Iron-Man.png" alt="Hero: Elon Musk">
+        </figure>
     </section>
     
-    <section id="portfolio">
+    <section id="portfolio" class="portfolio">
         <h2>Portfolio {}</h2>
-        <article>
-            <h3>Proyect 1</h3>
-            <h4>Technologies</h4>
-            <p><small><strong>Date:</strong> 19-7-2020</small></p>
-            <p><small><strong>You can see it at:</strong>www.web.com/proyecto1</small></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, placeat? 
+        <article class="project">
+            <h3 class="project-title">Project 1</h3>
+            <h4 class="project-technologies">Technologies</h4>
+            <p class="project-date"><small><strong>Date:</strong> 19-7-2020</small></p>
+            <p class="project-link"><small><strong>You can see it at:</strong>www.web.com/proyecto1</small></p>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, placeat? 
                 Minus laudantium iusto, alias ab nesciunt dolor rerum nulla sed qui possimus 
                 culpa rem id perferendis adipisci nostrum corrupti repellat.</p> 
-            <img id="image-project" src="https://www.satellitetoday.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-14-at-3.20.29-PM-800x600.png" alt="SpaceX launch">
-        </article>
+            <figure class="project-imageWrapper"> 
+                <img class="project-image" src="https://www.satellitetoday.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-14-at-3.20.29-PM-800x600.png" alt="SpaceX launch">
+            </figure>
+            </article>
     </section>
     
     <section id="events">
         <h2>More about my experience</h2>
-        <article>
-            <figure>
-                <img id="image-event" src="https://www.abc.net.au/cm/rimage/10217036-4x3-xlarge.jpg?v=4" alt="Elon Musk w/ Weed">
+        <article class="event">
+            <figure class="event-imageWrapper">
+                <img class="event-image" src="https://www.abc.net.au/cm/rimage/10217036-4x3-xlarge.jpg?v=4" alt="Elon Musk w/ Weed">
             </figure>
-            <h3>Event 1</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt facere 
+            <h3 class="event-title">Event 1</h3>
+            <p class="event-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt facere 
                 officia reiciendis aut quaerat atque sit similique. Totam commodi cum pariatur 
                 omnis eos. Eum atque quos sunt consequuntur harum.</p>
-            <a href="">Link a Evento 1</a>        
+            <a class="event-url link" href="https://www.youtube.com/watch?v=Dr450QamBOU&has_verified=1" target="_blank">Watch video!</a>        
         </article>
     </section>
     
-    <section id="contact">
-        <form action="">
+    <section id="contact" class="contact">
+        <form action="" class="form-email">
             <h3>Do we create something together?</h3>
             <input type="email" placeholder="correo@gmail.com" name="email" id="email">
             <button type="submit">Send</button>
         </form>
     </section>
 
-    <footer>
+    <footer class="footer">
 
     </footer>
 </body>

@@ -1,19 +1,29 @@
-#logo{
+body {
+    background: #ccc;
+}
+
+.header {
+    background: rgb(25, 22, 39);
+}
+.logo {
     height: 100px;
     width: 200px;
 }
+.link {
+    text-decoration: none;
+}
 
-#hero{
+.hero-image{
     height: 300px;
     width: 300px;
 }
 
-#image-project{
+.project-image{
     height: 300px;
     width: 500px;
 }
 
-#image-event{
+.event-image{
     height: 150px;
     width: 150px;
 }
