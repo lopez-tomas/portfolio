@@ -1,29 +1,69 @@
+/*  
+    Dark Grey: #525455
+    Luminous Grey: #ababab
+    Background-color: #181c1f
+    Cyan: #026fff
+*/
 body {
     background: #ccc;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+}
+h1 strong {
+    color: #026fff;
 }
 
 .header {
     background: rgb(25, 22, 39);
+    background-color: #181c1f;
+}
+.header a{
+    color: white;
+    text-decoration: none;
 }
 .logo {
     height: 100px;
     width: 200px;
 }
-.link {
-    text-decoration: none;
-}
 
-.hero-image{
+.hero {
+    height: 300px;
+    background-image: url("https://tesla-4u.com/wp-content/uploads/2018/12/Elon-Musk-Iron-Man.png");
+    background-color: #181c1f;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.hero-image {
     height: 300px;
     width: 300px;
 }
 
-.project-image{
-    height: 300px;
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.project-details {
+    width: 500px;
+}
+.project-imageWrapper {
     width: 500px;
 }
 
-.event-image{
+.event-image {
     height: 150px;
     width: 150px;
 }
